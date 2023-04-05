@@ -1,6 +1,8 @@
 //Задача 1//
 function getArrayParams(...arr) {
-  if (!arr.length > 0) { return 0; }
+  if (!arr.length > 0) { 
+    return 0; 
+  }
   let sum = 0;
   let avg = 0;
 
@@ -18,12 +20,16 @@ function getArrayParams(...arr) {
 
 //Задача 2//
 function summElementsWorker(...arr) {
-  if (!arr.length > 0) { return 0; }
+  if (!arr.length > 0) { 
+    return 0; 
+  }
   return arr.reduce((a, b) => (a + b));
 }
 
 function differenceMaxMinWorker(...arr) {
-  if (!arr.length > 0) { return 0; }
+  if (!arr.length > 0) { 
+    return 0; 
+  }
   let min = Math.min(...arr);
   let max = Math.max(...arr);
 
@@ -31,7 +37,9 @@ function differenceMaxMinWorker(...arr) {
 }
 
 function differenceEvenOddWorker(...arr) {
-  if (!arr.length > 0) { return 0; }
+  if (!arr.length > 0) { 
+    return 0; 
+  }
 
   let sumEvenElement = 0;
   let sumOddElement = 0;
@@ -47,7 +55,9 @@ function differenceEvenOddWorker(...arr) {
 }
 
 function averageEvenElementsWorker(...arr) {
-  if (!arr.length > 0) { return 0; }
+  if (!arr.length > 0) { 
+    return 0; 
+  }
 
   let sumEvenElement = 0;
   let countEvenElement = 0;
